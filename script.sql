@@ -1,5 +1,5 @@
 -- Creación de la base de datos (Ejecutar primero)
--- CREATE DATABASE viveros;
+CREATE DATABASE viveros;
 -- \c viveros;
 
 ----------------------------------------------------
