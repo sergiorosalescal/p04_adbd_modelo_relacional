@@ -4,160 +4,160 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t_vivero" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="VIVERO" vertex="1">
+        <mxCell id="t_vivero" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="VIVERO" vertex="1">
           <mxGeometry height="120" width="180" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="c_viv_1" parent="t_vivero" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Vivero : INT" vertex="1">
+        <mxCell id="c_viv_1" parent="t_vivero" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Vivero : INT" vertex="1">
           <mxGeometry height="24" width="180" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_viv_2" parent="t_vivero" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
+        <mxCell id="c_viv_2" parent="t_vivero" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
           <mxGeometry height="24" width="180" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_viv_3" parent="t_vivero" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Latitud : NUMERIC(9,6)" vertex="1">
+        <mxCell id="c_viv_3" parent="t_vivero" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Latitud : NUMERIC(9,6)" vertex="1">
           <mxGeometry height="24" width="180" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c_viv_4" parent="t_vivero" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Longitud : NUMERIC(9,6)" vertex="1">
+        <mxCell id="c_viv_4" parent="t_vivero" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Longitud : NUMERIC(9,6)" vertex="1">
           <mxGeometry height="22" width="180" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="t_zona" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ZONA" vertex="1">
+        <mxCell id="t_zona" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="ZONA" vertex="1">
           <mxGeometry height="120" width="190" x="315" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="c_zon_1" parent="t_zona" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Zona : INT" vertex="1">
+        <mxCell id="c_zon_1" parent="t_zona" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Zona : INT" vertex="1">
           <mxGeometry height="24" width="190" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_zon_2" parent="t_zona" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Vivero : INT" vertex="1">
+        <mxCell id="c_zon_2" parent="t_zona" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Vivero : INT" vertex="1">
           <mxGeometry height="24" width="190" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_zon_3" parent="t_zona" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Latitud : NUMERIC(9,6)" vertex="1">
+        <mxCell id="c_zon_3" parent="t_zona" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Latitud : NUMERIC(9,6)" vertex="1">
           <mxGeometry height="24" width="190" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c_zon_4" parent="t_zona" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Longitud : NUMERIC(9,6)" vertex="1">
+        <mxCell id="c_zon_4" parent="t_zona" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Longitud : NUMERIC(9,6)" vertex="1">
           <mxGeometry height="22" width="190" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="t_aloja" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ALOJA_STOCK" vertex="1">
+        <mxCell id="t_aloja" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="ALOJA_STOCK" vertex="1">
           <mxGeometry height="100" width="220" x="580" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="c_alo_1" parent="t_aloja" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Zona : INT" vertex="1">
+        <mxCell id="c_alo_1" parent="t_aloja" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Zona : INT" vertex="1">
           <mxGeometry height="24" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_alo_2" parent="t_aloja" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Producto : VARCHAR(20)" vertex="1">
+        <mxCell id="c_alo_2" parent="t_aloja" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Producto : VARCHAR(20)" vertex="1">
           <mxGeometry height="24" width="220" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_alo_3" parent="t_aloja" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Cantidad : INT" vertex="1">
+        <mxCell id="c_alo_3" parent="t_aloja" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Cantidad : INT" vertex="1">
           <mxGeometry height="26" width="220" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="t_producto" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PRODUCTO" vertex="1">
+        <mxCell id="t_producto" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="PRODUCTO" vertex="1">
           <mxGeometry height="100" width="200" x="880" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="c_pro_1" parent="t_producto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Producto : VARCHAR(20)" vertex="1">
+        <mxCell id="c_pro_1" parent="t_producto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Producto : VARCHAR(20)" vertex="1">
           <mxGeometry height="24" width="200" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_pro_2" parent="t_producto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
+        <mxCell id="c_pro_2" parent="t_producto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
           <mxGeometry height="24" width="200" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_pro_3" parent="t_producto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Precio : NUMERIC(10,2)" vertex="1">
+        <mxCell id="c_pro_3" parent="t_producto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Precio : NUMERIC(10,2)" vertex="1">
           <mxGeometry height="26" width="200" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="t_tarea" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="TAREA" vertex="1">
+        <mxCell id="t_tarea" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="TAREA" vertex="1">
           <mxGeometry height="100" width="190" x="30" y="287" as="geometry" />
         </mxCell>
-        <mxCell id="c_tar_1" parent="t_tarea" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Tarea : VARCHAR(50)" vertex="1">
+        <mxCell id="c_tar_1" parent="t_tarea" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Tarea : VARCHAR(50)" vertex="1">
           <mxGeometry height="24" width="190" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_tar_2" parent="t_tarea" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
+        <mxCell id="c_tar_2" parent="t_tarea" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
           <mxGeometry height="24" width="190" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_tar_3" parent="t_tarea" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Descripcion : TEXT" vertex="1">
+        <mxCell id="c_tar_3" parent="t_tarea" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Descripcion : TEXT" vertex="1">
           <mxGeometry height="26" width="190" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="t_hist" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="HISTORICO_DESTINO" vertex="1">
+        <mxCell id="t_hist" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="HISTORICO_DESTINO" vertex="1">
           <mxGeometry height="194" width="220" x="300" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_1" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Empleado : VARCHAR(12)" vertex="1">
+        <mxCell id="c_his_1" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Empleado : VARCHAR(12)" vertex="1">
           <mxGeometry height="24" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_2" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK        Fecha_Inicio : DATE" vertex="1">
+        <mxCell id="c_his_2" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK        Fecha_Inicio : DATE" vertex="1">
           <mxGeometry height="24" width="220" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_4" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK        Id_Tarea : VARCHAR(50)" vertex="1">
+        <mxCell id="c_his_4" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK        Id_Tarea : VARCHAR(50)" vertex="1">
           <mxGeometry height="24" width="220" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_3" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" value="FK        Id_Zona : INT" vertex="1">
+        <mxCell id="c_his_3" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" value="FK        Id_Zona : INT" vertex="1">
           <mxGeometry height="24" width="220" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_5" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Fecha_Fin : DATE" vertex="1">
+        <mxCell id="c_his_5" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Fecha_Fin : DATE" vertex="1">
           <mxGeometry height="24" width="220" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_6" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Puesto : VARCHAR(50)" vertex="1">
+        <mxCell id="c_his_6" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Puesto : VARCHAR(50)" vertex="1">
           <mxGeometry height="24" width="220" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c_his_7" parent="t_hist" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Productividad : NUMERIC(3,1)" vertex="1">
+        <mxCell id="c_his_7" parent="t_hist" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Productividad : NUMERIC(3,1)" vertex="1">
           <mxGeometry height="24" width="220" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="t_empleado" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="EMPLEADO" vertex="1">
+        <mxCell id="t_empleado" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="EMPLEADO" vertex="1">
           <mxGeometry height="76" width="200" x="610" y="299" as="geometry" />
         </mxCell>
-        <mxCell id="c_emp_1" parent="t_empleado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Empleado : VARCHAR(12)" vertex="1">
+        <mxCell id="c_emp_1" parent="t_empleado" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Empleado : VARCHAR(12)" vertex="1">
           <mxGeometry height="24" width="200" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_emp_2" parent="t_empleado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
+        <mxCell id="c_emp_2" parent="t_empleado" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Nombre : VARCHAR(100)" vertex="1">
           <mxGeometry height="26" width="200" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="t_cliente" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CLIENTE" vertex="1">
+        <mxCell id="t_cliente" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="CLIENTE" vertex="1">
           <mxGeometry height="100" width="220" x="300" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="c_cli_1" parent="t_cliente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Cliente : INT" vertex="1">
+        <mxCell id="c_cli_1" parent="t_cliente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Cliente : INT" vertex="1">
           <mxGeometry height="24" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_cli_2" parent="t_cliente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Fecha_Registro : DATE" vertex="1">
+        <mxCell id="c_cli_2" parent="t_cliente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Fecha_Registro : DATE" vertex="1">
           <mxGeometry height="24" width="220" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_cli_3" parent="t_cliente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Volumen_Compras : NUMERIC(10,2)" vertex="1">
+        <mxCell id="c_cli_3" parent="t_cliente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Volumen_Compras : NUMERIC(10,2)" vertex="1">
           <mxGeometry height="26" width="220" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="t_suscriptor" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="SUSCRIPTOR" vertex="1">
+        <mxCell id="t_suscriptor" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="SUSCRIPTOR" vertex="1">
           <mxGeometry height="120" width="220" x="300" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="c_sus_1" parent="t_suscriptor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Cliente : INT" vertex="1">
+        <mxCell id="c_sus_1" parent="t_suscriptor" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Cliente : INT" vertex="1">
           <mxGeometry height="24" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_sus_2" parent="t_suscriptor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Fecha_Ingreso : DATE" vertex="1">
+        <mxCell id="c_sus_2" parent="t_suscriptor" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Fecha_Ingreso : DATE" vertex="1">
           <mxGeometry height="24" width="220" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_sus_3" parent="t_suscriptor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Fecha_Salida : DATE" vertex="1">
+        <mxCell id="c_sus_3" parent="t_suscriptor" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Fecha_Salida : DATE" vertex="1">
           <mxGeometry height="24" width="220" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c_sus_4" parent="t_suscriptor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Bonificaciones : NUMERIC(10,2)" vertex="1">
+        <mxCell id="c_sus_4" parent="t_suscriptor" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Bonificaciones : NUMERIC(10,2)" vertex="1">
           <mxGeometry height="22" width="220" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="t_pedido" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PEDIDO" vertex="1">
+        <mxCell id="t_pedido" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="PEDIDO" vertex="1">
           <mxGeometry height="120" width="220" x="600" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="c_ped_1" parent="t_pedido" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Pedido : INT" vertex="1">
+        <mxCell id="c_ped_1" parent="t_pedido" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK  Id_Pedido : INT" vertex="1">
           <mxGeometry height="24" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_ped_2" parent="t_pedido" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" value="FK  Id_Cliente : INT" vertex="1">
+        <mxCell id="c_ped_2" parent="t_pedido" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" value="FK  Id_Cliente : INT" vertex="1">
           <mxGeometry height="24" width="220" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_ped_3" parent="t_pedido" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" value="FK  Id_Empleado : VARCHAR(12)" vertex="1">
+        <mxCell id="c_ped_3" parent="t_pedido" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" value="FK  Id_Empleado : VARCHAR(12)" vertex="1">
           <mxGeometry height="24" width="220" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c_ped_4" parent="t_pedido" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Importe_Total : NUMERIC(10,2)" vertex="1">
+        <mxCell id="c_ped_4" parent="t_pedido" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="      Importe_Total : NUMERIC(10,2)" vertex="1">
           <mxGeometry height="22" width="220" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="t_contiene" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="CONTIENE" vertex="1">
+        <mxCell id="t_contiene" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="CONTIENE" vertex="1">
           <mxGeometry height="120" width="220" x="880" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="c_con_1" parent="t_contiene" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Pedido : INT" vertex="1">
+        <mxCell id="c_con_1" parent="t_contiene" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Pedido : INT" vertex="1">
           <mxGeometry height="24" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c_con_2" parent="t_contiene" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Producto : VARCHAR(20)" vertex="1">
+        <mxCell id="c_con_2" parent="t_contiene" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5;" value="PK, FK  Id_Producto : VARCHAR(20)" vertex="1">
           <mxGeometry height="24" width="220" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_con_3" parent="t_contiene" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Cantidad : INT" vertex="1">
+        <mxCell id="c_con_3" parent="t_contiene" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Cantidad : INT" vertex="1">
           <mxGeometry height="24" width="220" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c_con_4" parent="t_contiene" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Precio_Venta : NUMERIC(10,2)" vertex="1">
+        <mxCell id="c_con_4" parent="t_contiene" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="            Precio_Venta : NUMERIC(10,2)" vertex="1">
           <mxGeometry height="22" width="220" y="98" as="geometry" />
         </mxCell>
         <mxCell id="rel_zon_his" edge="1" parent="1" source="t_zona" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="t_hist">
