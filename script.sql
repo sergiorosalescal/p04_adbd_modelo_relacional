@@ -1,5 +1,6 @@
--- Creación de la base de datos (Ejecutar primero)
+-- Creación de la base de datos
 CREATE DATABASE viveros;
+-- Si quiere ejecutar a la primera, ejecutar el script en la terminal y descomentar la siguiente línea:
 -- \c viveros;
 
 ----------------------------------------------------
