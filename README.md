@@ -87,6 +87,3 @@ Resultado:
         105 |           45.00 |           4.50 |      1005 |         11.00 | Maceta Terracota  |        2 |         5.50
 (3 rows)
 ```
-
-
-<img width="1914" height="1080" alt="image" src="https://github.com/user-attachments/assets/598436d6-a70b-473f-b304-a12736c06379" /># p04_adbd_modelo_relacional
