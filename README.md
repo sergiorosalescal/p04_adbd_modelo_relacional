@@ -1,5 +1,14 @@
 # Práctica 4. Modelo Relacional. Viveros
 
+**Asignatura:** Administración y Diseño de Bases de Datos
+
+**Autores:**
+
+* Francisco Gabriel Ruiz Ruiz (alu0101618586@ull.edu.es)
+
+* Sergio Rosales Calzadilla (alu0101635590@ull.edu.es)
+
+
 ## Imagen con la salida de un SELECT de cada tabla de la base de datos
 
 ### 1. Rama de Infraestructura y Stock (Viveros, Zonas, Aloja_Stock y Productos)
