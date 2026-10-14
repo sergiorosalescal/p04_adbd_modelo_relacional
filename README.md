@@ -8,6 +8,9 @@
 
 * Sergio Rosales Calzadilla (alu0101635590@ull.edu.es)
 
+## Imagen del modelo relacional
+
+![Modelo relacional](diagrama_modelo_relacional.drawio.png)
 
 ## Imagen con la salida de un SELECT de cada tabla de la base de datos
 
